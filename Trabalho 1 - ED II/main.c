@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "aux.h"
+#include "auxiliar.h"
 #include "stack.h"
 #include "queue.h"
+#include "list.c"
 
 int main()
 {
@@ -12,14 +13,14 @@ int main()
   printf("Initializing stack\n");
   struct Stack *stack = (struct Stack *)malloc(sizeof(struct Stack));
   initStack(stack);
-  
+
   for (int i = 0; i < 10; i++)
   {
     pushStack(stack, initIntElem(i));
     int *k = inspectStack(stack);
     printf("Pushed %d\n", *k);
   }
-
+/*
   while (!isEmptyStack(stack))
   {
     int *k = popStack(stack);
@@ -56,7 +57,6 @@ int main()
   free(queue);
 
   printf("End\n");
-
+*/
   return 0;
 }
-

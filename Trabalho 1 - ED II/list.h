@@ -23,7 +23,7 @@ struct ListNode
 
 /*
 Esta função inicializa os dados de um nó da lista, atribuindo ao elemento
-o valor passado como parâmetro, e null para o ponteiro para o próximo 
+o valor passado como parâmetro, e null para o ponteiro para o próximo
 elemento.
 
 */
@@ -52,7 +52,7 @@ struct List
 
 /*
 Esta função inicializa os dados da lista, ou seja, garante que a lista
-encontra-se vazia. Espera-se que a mesma seja chamada apenas após a 
+encontra-se vazia. Espera-se que a mesma seja chamada apenas após a
 alocação da variável da estrutura Lista, uma vez que não se pode
 garantir que os valores encontram-se do jeito que se espera (Lista vazia)
 após a alocação da memória. Desta forma, não é necessário assumir que

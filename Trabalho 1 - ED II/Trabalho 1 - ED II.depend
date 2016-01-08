@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1452292132 source:c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\list.c
+
+1452292967 source:c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\main.c
+	<stdio.h>
+	<stdlib.h>
+	"auxiliar.h"
+	"stack.h"
+	"queue.h"
+	"list.c"
+
+1452289678 c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\auxiliar.h
+
+1452289653 c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\stack.h
+	"list.h"
+
+1452293315 c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\list.h
+
+1452289653 c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\queue.h
+	"list.h"
+
+1452293541 c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\list.c
+	"list.h"
+
