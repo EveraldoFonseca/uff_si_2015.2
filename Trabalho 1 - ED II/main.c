@@ -4,7 +4,6 @@
 #include "auxiliar.h"
 #include "stack.h"
 #include "queue.h"
-#include "list.c"
 
 int main()
 {
