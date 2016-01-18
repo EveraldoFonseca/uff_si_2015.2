@@ -2,58 +2,74 @@
 #include "auxiliar.h"
 #include "stack.h"
 
-void insertBinaryTree(struct BinaryTree *tree, void *elem) {
+void insertBinaryTree(struct BinaryTree *tree, void *elem)
+{
     struct BinaryTreeNode *novoNo = (struct BinaryTreeNode*) malloc(sizeof(struct BinaryTreeNode));
     novoNo->elem = elem;
     novoNo->left = NULL;
     novoNo->right=NULL;
 
-    if (tree->root==NULL) {
+    if (tree->root==NULL)
+    {
         tree->root = novoNo;
-    } else {
-        struct BinaryTreeNode *auxNo = tree->root;
+    }
+    else
+    {
+        struct BinaryTreeNode *auxNo;
+        auxNo = tree->root;
         int side = 0;
-        do {
-            if (auxNo->left == NULL) {
+        do
+        {
+            if (auxNo->left == NULL)
+            {
                 auxNo->left = novoNo;
-                auxNo=NULL;
-            } else if (auxNo->right == NULL) {
+                break;
+            }
+            else if (auxNo->right == NULL)
+            {
                 auxNo->right = novoNo;
-                auxNo=NULL;
-            } else {
+                break;
+            }
+            else
+            {
                 auxNo = side ? auxNo->left : auxNo->right;
                 side = !side;
             }
-        } while (auxNo != NULL);
+        }
+        while (auxNo != NULL);
     }
 }
 
-void preOrderTraversal(struct BinaryTree *tree) {
-    if (tree->root != NULL) {
-        struct BinaryTreeNode *noAux = tree->root;
+void preOrderTraversal(struct BinaryTree *tree)
+{
+    if (tree->root != NULL)
+    {
         struct Stack *pilha = (struct Stack*) malloc(sizeof(struct Stack));
         initStack(pilha);
-        pushStack(pilha,(void*)noAux);
-        while(!isEmptyStack(pilha)) {
-            struct BinaryTreeNode *noRemovido =  (struct BinaryTreeNode*) popStack(pilha);
-            visitIntElem(noRemovido->elem);
-            if (noAux->left != NULL) {
-                pushStack(pilha, (void*) noAux->left);
-                noAux = noAux->left;
-            }else if (noAux->right != NULL) {
-                pushStack(pilha, (void*) noAux->right);
-                noAux = noAux->right;
-            }
+        pushStack(pilha,(void*)tree->root);
+        while(!isEmptyStack(pilha))
+        {
+            struct BinaryTreeNode *noTopo =  (struct BinaryTreeNode*) inspectStack(pilha);
+            visitIntElem(noTopo->elem);
+            popStack(pilha);
+            if (noTopo->right != NULL)
+                pushStack(pilha, (void*) noTopo->right);
+            if (noTopo->left != NULL)
+                pushStack(pilha, (void*) noTopo->left);
+
         }
     }
 }
-void postOrderTraversal(struct BinaryTree *tree) {
+void postOrderTraversal(struct BinaryTree *tree)
+{
 
 }
 
-void inOrderTraversal(struct BinaryTree *tree) {
+void inOrderTraversal(struct BinaryTree *tree)
+{
 
 }
-void breadthFirstTraversal(struct BinaryTree *tree) {
+void breadthFirstTraversal(struct BinaryTree *tree)
+{
 
 }
