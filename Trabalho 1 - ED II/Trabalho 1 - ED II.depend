@@ -38,3 +38,44 @@
 1453103261 source:c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\auxiliar.c
 	"auxiliar.h"
 
+1453149033 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\auxiliar.c
+	"auxiliar.h"
+
+1453149033 c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\auxiliar.h
+
+1453155426 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\binary_tree.c
+	<stdlib.h>
+	"binary_tree.h"
+	"auxiliar.h"
+	"stack.h"
+	"queue.h"
+
+1453149033 c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\binary_tree.h
+
+1453149033 c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\stack.h
+	"list.h"
+
+1453149033 c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\list.h
+
+1453149033 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\list.c
+	"list.h"
+
+1453155465 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\main.c
+	<stdio.h>
+	<stdlib.h>
+	"auxiliar.h"
+	"stack.h"
+	"queue.h"
+	"binary_tree.h"
+
+1453149033 c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\queue.h
+	"list.h"
+
+1453149033 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\queue.c
+	"queue.h"
+	"list.h"
+
+1453149033 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\stack.c
+	"stack.h"
+	"list.h"
+
