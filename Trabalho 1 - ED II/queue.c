@@ -1,28 +1,29 @@
 #include "queue.h"
+#include "list.h"
 
-
-void initQueue(struct Queue *queue){
-
+void initQueue(struct Queue *queue) {
+    struct List *novaLista = (struct List*) malloc(sizeof (struct List));
+    initList(novaLista);
+    queue->list = novaLista;
 }
 
-void clearQueue(struct Queue *queue){
-
+void clearQueue(struct Queue *queue) {
+    clearList(queue->list);
+    free(queue);
 }
-void endQueue(struct Queue *queue){
 
+void enqueue(struct Queue *queue, void *elem) {
+    insertLastList(queue->list,elem);
 }
-void enqueue(struct Queue *queue, void *elem){
-
+void *inspectFirstQueue(struct Queue *queue) {
+    return inspectFirstList(queue->list);
 }
-void *inspectFirstQueue(struct Queue *queue){
-
+void *inspectLastQueue(struct Queue *queue) {
+    return inspectLastList(queue->list);
 }
-void *inspectLastQueue(struct Queue *queue){
-
+void *dequeue(struct Queue *queue) {
+    return removeFirstList(queue->list);
 }
-void *dequeue(struct Queue *queue){
-
-}
-int isEmptyQueue(struct Queue *queue){
-
+int isEmptyQueue(struct Queue *queue) {
+    return isEmptyList(queue->list);
 }

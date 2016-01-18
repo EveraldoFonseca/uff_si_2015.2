@@ -41,12 +41,6 @@ elemento.
 void clearQueue(struct Queue *queue);
 
 /*
-Elimina toda a memória ocupada pela fila.
-
-*/
-void endQueue(struct Queue *queue);
-
-/*
 Insere um elemento no final da fila.
 
 */
