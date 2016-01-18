@@ -43,7 +43,8 @@
 
 1453149033 c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\auxiliar.h
 
-1453155426 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\binary_tree.c
+1453155838 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\binary_tree.c
+	<stdio.h>
 	<stdlib.h>
 	"binary_tree.h"
 	"auxiliar.h"
@@ -60,7 +61,7 @@
 1453149033 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\list.c
 	"list.h"
 
-1453155465 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\main.c
+1453155811 source:c:\users\lii\uff_si_2015.2\trabalho 1 - ed ii\main.c
 	<stdio.h>
 	<stdlib.h>
 	"auxiliar.h"

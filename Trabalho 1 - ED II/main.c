@@ -7,7 +7,7 @@
 #include "binary_tree.h"
 int main()
 {
-    /*
+
       printf("Start\n");
 
       printf("Initializing stack\n");
@@ -31,7 +31,6 @@ int main()
 
       printf("Freeing stack\n");
       clearStack(stack);
-      //free(stack);
 
 
       printf("Initializing queue\n");
@@ -53,18 +52,17 @@ int main()
       }
 
       printf("Freeing queue\n");
-      //endQueue(queue);
-      //free(queue);
+      clearQueue(queue);
 
       printf("End\n");
-    */
+
     struct BinaryTree *tree = (struct BinaryTree*) malloc(sizeof(struct BinaryTree));
     tree->root=NULL;
-    /*for (int i = 0 ; i<=10; i++){
+    for (int i = 0 ; i<=10; i++){
         int *valor = (int*) malloc(sizeof (int));
         *valor = i;
         insertBinaryTree(tree, valor);
-    }*/
+    }
 
     insertBinaryTree(tree, initIntElem(6));
     insertBinaryTree(tree, initIntElem(7));

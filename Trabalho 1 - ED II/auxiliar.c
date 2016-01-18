@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "auxiliar.h"
 
 void *initIntElem(int elem) {
