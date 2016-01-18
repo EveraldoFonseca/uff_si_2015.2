@@ -41,12 +41,6 @@ elemento.
 void clearStack(struct Stack *stack);
 
 /*
-Elimina toda a memória ocupada pela pilha.
-
-*/
-void endStack(struct Stack *stack);
-
-/*
 Insere um elemento no topo da pilha.
 
 */
