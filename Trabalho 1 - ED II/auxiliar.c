@@ -7,5 +7,5 @@ void *initIntElem(int elem) {
 }
 void visitIntElem(void *elem) {
     int* p = (int*) elem;
-    printf("%d\n", p);
+    printf("%d\n", *p);
 }

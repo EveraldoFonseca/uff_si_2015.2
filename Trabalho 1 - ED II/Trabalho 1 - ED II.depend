@@ -1,24 +1,40 @@
 # depslib dependency file v1.0
-1452292132 source:c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\list.c
+1453104153 source:c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\binary_tree.c
+	"binary_tree.h"
+	"auxiliar.h"
+	"stack.h"
 
-1452292967 source:c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\main.c
+1452301468 c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\binary_tree.h
+
+1453093429 source:c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\list.c
+	"list.h"
+
+1452303872 c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\list.h
+
+1453094642 source:c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\queue.c
+	"queue.h"
+	"list.h"
+
+1452303892 c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\queue.h
+	"list.h"
+
+1453093441 source:c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\stack.c
+	"stack.h"
+	"list.h"
+
+1452303884 c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\stack.h
+	"list.h"
+
+1453102056 source:c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\main.c
 	<stdio.h>
 	<stdlib.h>
 	"auxiliar.h"
 	"stack.h"
 	"queue.h"
-	"list.c"
+	"binary_tree.h"
 
-1452289678 c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\auxiliar.h
+1452303864 c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\auxiliar.h
 
-1452289653 c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\stack.h
-	"list.h"
-
-1452293315 c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\list.h
-
-1452289653 c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\queue.h
-	"list.h"
-
-1452293541 c:\users\lii\documents\github\uff_si_2015.2\trabalho 1 - ed ii\list.c
-	"list.h"
+1453103261 source:c:\users\elbem\github\uff_si_2015.2\trabalho 1 - ed ii\auxiliar.c
+	"auxiliar.h"
 
