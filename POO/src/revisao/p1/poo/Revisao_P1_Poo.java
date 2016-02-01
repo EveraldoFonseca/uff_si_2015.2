@@ -1,6 +1,6 @@
-package revisao.p1.poo;
+package br.uff.si.poo.revisao.;
 
-import br.uff.si.Prova;
+import br.uff.si.poo.Prova;
 import java.util.Scanner;
 
 public class Revisao_P1_Poo {

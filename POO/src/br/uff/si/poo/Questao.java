@@ -1,4 +1,4 @@
-package br.uff.si;
+package br.uff.si.poo;
 
 public class Questao {
 
