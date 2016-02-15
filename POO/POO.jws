@@ -24,7 +24,7 @@
       <string v="oracle.jdeveloper.model.PathsConfiguration/ResourceBundlesContentSet"/>
    </list>
    <list n="listOfChildren">
-      <hash><url n="URL" path="Agenda Telefônica/Agenda Telefônica.jpr"/></hash>
-      <hash><url n="URL" path="../Consultório Médico/Consultório Médico.jpr"/></hash>
+      <hash><url n="URL" path="Consultório Médico/Consultório Médico.jpr"/></hash>
+	   <hash><url n="URL" path="Agenda Telefônica/Agenda Telefônica.jpr"/></hash>
    </list>
 </jws:workspace>
