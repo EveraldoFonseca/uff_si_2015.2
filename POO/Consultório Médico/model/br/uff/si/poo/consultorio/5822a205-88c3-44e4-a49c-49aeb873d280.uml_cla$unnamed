@@ -6,6 +6,6 @@
    isActive='false'
    isFinalSpecialization='false'
    isLeaf='false'
-   name='Atendente'
+   name=''
    visibility='public'/>
 </xmi:XMI>

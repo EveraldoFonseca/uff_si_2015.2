@@ -1,4 +1,4 @@
-package br.uff.si.poo.agenda.classes;
+package br.uff.si.poo;
 
 public class Endereco {
     private String cep;

@@ -7,5 +7,25 @@
    isFinalSpecialization='false'
    isLeaf='false'
    name='Pessoa'
-   visibility='public'/>
+   visibility='public'>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:c2a6325f-117d-45e8-b1a3-4e397cec5d07'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='String nome'
+    aggregation='none'
+    visibility='package'>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:cc27f9e1-99e4-4583-b55b-cdb992b5f397'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:ba9c18f7-ace4-406e-bad3-57ff0573fef4'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
 </xmi:XMI>

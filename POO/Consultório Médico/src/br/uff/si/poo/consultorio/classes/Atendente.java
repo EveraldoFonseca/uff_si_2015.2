@@ -2,8 +2,8 @@ package br.uff.si.poo.consultorio.classes;
 
 import br.uff.si.poo.consultorio.interfaces.Usuario;
 
-public class Medico extends Pessoa implements Usuario {
-    public Medico() {
+public class Atendente extends Pessoa implements Usuario{
+    public Atendente() {
         super();
     }
 
