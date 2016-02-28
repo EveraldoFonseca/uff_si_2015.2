@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "aux.h"
+#include "auxiliar.h"
 #include "stack.h"
 #include "queue.h"
 
